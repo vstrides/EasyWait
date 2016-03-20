@@ -1,2 +1,1 @@
 # EasyWait
-Easy Wait
