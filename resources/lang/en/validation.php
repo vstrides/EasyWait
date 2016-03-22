@@ -95,7 +95,16 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+
+        'password' => [
+            'regex' => 'The password must contain at least one Upper Case Letter, one Lower Case Letter,
+                        one Digit, one special Character and no whitespaces.',
+            'confirmed' => 'Passwords do not match'
+        ],
+
     ],
+
+
 
     /*
     |--------------------------------------------------------------------------
