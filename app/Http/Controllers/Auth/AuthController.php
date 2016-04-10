@@ -55,6 +55,8 @@ class AuthController extends Controller
                             regex:[^.*(?=.*[a-zA-Z])(?=.*[\d\W])(^\S*$).*$]',
         ];
 
+        //^.*(?=.*[a-zA-Z])(?=.*[\W])(?=.*[\d])(^\S*$).*$
+
         return Validator::make($data, $rules);
     }
 
