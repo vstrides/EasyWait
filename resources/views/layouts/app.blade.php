@@ -40,31 +40,35 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                     <b><span style="color:crimson;"><span style="font-family:'Papyrus';"><span style="font-size:190%;">Laravel</b>
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+<<<<<<< HEAD
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/appointments') }}">Vendors</a></li>
+=======
+                    <li><a href="{{ url('/home') }}"><span style="font-family:'Poor Richard';"><span style="font-size:180%;"><span style="color:black;">Home</a></li>
+>>>>>>> 81861379680a9d77f79fde27a698e20b5d349cb8
                 </ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Register</a></li>
+                        <li><a href="{{ url('/login') }}"><span style="font-family:'Poor Richard';"><span style="font-size:180%;"><span style="color:black;">Login</a></li>
+                        <li><a href="{{ url('/register') }}"><span style="font-family:'Poor Richard';"><span style="font-size:180%;"><span style="color:black;">Register</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{ Auth::user()->name }} <span class="caret"></span>
+                                <span style="font-family:'Poor Richard';"><span style="font-size:190%;"><span style="color:crimson;">{{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i><span style="font-family:'Poor Richard';"><span style="font-size:150%;"><span style="color:black;">Logout</a></li>
                             </ul>
                         </li>
                     @endif
