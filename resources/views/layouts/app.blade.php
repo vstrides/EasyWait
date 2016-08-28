@@ -47,12 +47,9 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-<<<<<<< HEAD
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/appointments') }}">Vendors</a></li>
-=======
-                    <li><a href="{{ url('/home') }}"><span style="font-family:'Poor Richard';"><span style="font-size:180%;"><span style="color:black;">Home</a></li>
->>>>>>> 81861379680a9d77f79fde27a698e20b5d349cb8
+
                 </ul>
 
                 <!-- Right Side Of Navbar -->
